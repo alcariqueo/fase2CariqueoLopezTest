@@ -1,0 +1,12 @@
+{% extends "base_generic.html" %}
+
+{% block content %}
+  <h1>Partido: {{ partido.local}} vs. {{ partido.visita}}</h1>
+
+  <p><strong>Local:</strong> {{ partido.local }}</p>
+  <p><strong>Visita:</strong> {{ partido.visita }}</p>
+  <p><strong>Fecha:</strong> {{ partido.fecha_partido }}</p> 
+  <p><strong>Estadio:</strong> {{ partido.estadio }}</p>  
+  <p><strong>Competicion:</strong> {{ partido.competicion }}</p> 
+
+{% endblock %}
