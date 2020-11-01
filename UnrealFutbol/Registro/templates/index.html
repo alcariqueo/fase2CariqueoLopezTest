@@ -20,7 +20,7 @@
         <p>Aqui en unreal Futbol puedes vivir el futbol como nunca antes, haciendo apuestas sobre resultados de tus equipos favoritos y ganando dinero todo lo que un futbolero como tu necesita.<br>
         </p>
         <p>Solo necesitas ser mayor de 18 años y tener una tarjeta de credito valida. Únete en el boton de aqui abajo.</p>
-        <a href="registro.html" target="_self" class="btn btn-primary btn-lg">Ingresar</a>       
+        <a href="{% url 'registro' %}" target="_self" class="btn btn-primary btn-lg">Ingresar</a>       
       </div>
 
       <div id="carousel1" class="carousel slide" data-ride="carousel">
@@ -62,7 +62,7 @@
                 <h4 class="card-title">Que ligas estan disponibles para apostar?</h4>
                 <p class="card-text">Por ahora solo los partidos de la liga chiena se encuentran disponibles,
                   tanto como el campeonato Plan Vital©, copa chile MTS© y recopa chilena. </p>
-                <a href="login.html" class="btn btn-primary">Apuesta ya
+                <a href="{% url 'login' %}" class="btn btn-primary">Apuesta ya
                 </a>
               </div>
             </div>          
@@ -74,7 +74,7 @@
                 <h4 class="card-title">Abre tu cuenta aquí, solo necesitas ser mayor de edad</h4>
                 <p class="card-text">Unete a nuestra comunidad amante del futbol, de la pasion en el juego
                   y con ansias de ganar dinero a traves de tus equipos favoritos. </p>
-                <a href="registro.html" class="btn btn-primary">Crear cuenta</a>
+                <a href="{% url 'registro' %}" class="btn btn-primary">Crear cuenta</a>
               </div>
             </div>          
         </div>
@@ -85,7 +85,7 @@
                 <h4 class="card-title">Visita nuestra galeria de imagenes</h4>
                 <p class="card-text">Nuestra pasion por el futbol va mas alla de los 90 minutos del encuentro,
                   por eso hemos querido plantar ese sentimiento en nuestra galeria. </p>
-                <a href="galeria.html" class="btn btn-primary">Conocenos aqui</a>
+                <a href="{% url 'galeria' %}" class="btn btn-primary">Conocenos aqui</a>
               </div>
             </div>          
         </div>      

@@ -12,6 +12,40 @@ def index(request):
         'index.html',
     )
 
+def login(request):
+
+    return render(
+        request,
+        'login.html',
+    ) 
+
+def registro(request):
+
+    return render(
+        request,
+        'registro.html',
+    )  
+
+def terminos(request):
+
+    return render(
+        request,
+        'terminos.html',
+    ) 
+def galeria(request):
+
+    return render(
+        request,
+        'galeria.html',
+    )
+
+def apuesta(request):
+
+    return render(
+        request,
+        'apuesta.html',
+    )             
+
 class UsuarioCreate(CreateView):
     model = Usuario
     fields = '__all__'
